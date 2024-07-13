@@ -1,12 +1,19 @@
 package tek.intro;
 
+
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Activity1 {
+public class Activity2 {
     public static void main(String[] args) {
+
         ChromeDriver driver = new ChromeDriver();
+
+        driver.manage().window().maximize();
+        // to maximize the browser
         driver.get("https://facebook.com");
-        // to close browser entirely
-        driver.quit();
+
+       // driver.quit();
+      // String title = driver.getTitle();
+        //System.out.println(title);
     }
 }
