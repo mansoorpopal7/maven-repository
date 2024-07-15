@@ -13,7 +13,7 @@ public class Activity2 {
         driver.get("https://facebook.com");
 
        // driver.quit();
-      // String title = driver.getTitle();
-        //System.out.println(title);
+       String title = driver.getTitle();
+        System.out.println(title);
     }
 }
