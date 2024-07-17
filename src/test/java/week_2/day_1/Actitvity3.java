@@ -25,7 +25,7 @@ public class Actitvity3 {
 
          By emaillocator = By.name("email");
          WebElement emailelement = driver.findElement(emaillocator);
-         emailelement.sendKeys("mansoor,popal1@gmail.com");
+         emailelement.sendKeys("mansoorpopal1@gmail.com");
 
          By password = By.name("password");
          WebElement passwordelement = driver.findElement(password);
@@ -34,6 +34,10 @@ public class Actitvity3 {
          By confirmpass = By.id("confirmPasswordInput");
          WebElement passelement = driver.findElement(confirmpass);
          passelement.sendKeys("passtwo123");
+
+         By signupbtn = By.id("signupBtn");
+         WebElement signupbtnelement = driver.findElement(signupbtn);
+         signupbtnelement.click();
 
     }
 }
